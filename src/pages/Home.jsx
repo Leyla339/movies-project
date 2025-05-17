@@ -148,7 +148,7 @@ const Home = () => {
               </button>
               {isListSaved ? (
                 <Link
-                  to="/fav-list"
+                  to="/movies-project/fav-list"
                   className="show-list-active"
                   state={{ favName, favoriteMovies }}
                 >

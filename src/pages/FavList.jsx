@@ -27,7 +27,7 @@ const FavList = () => {
           </ul>
         </div>
         <div className="back">
-          <Link to="/">Movies</Link>
+          <Link to="/movies-project/">Movies</Link>
         </div>
       </div>
     </div>
