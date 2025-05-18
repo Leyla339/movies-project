@@ -3,7 +3,8 @@
   justify-content: center;
   align-items: center;
   height: 100%;
-  margin: 40px 0;
+  margin: 40px auto;
+  width: 60%;
 }
 .fav-card {
   border: 2px solid #6e2a9b;
@@ -40,4 +41,10 @@ a {
 }
 .imdb {
   margin-left: 50px;
+}
+
+@media (max-width: 600px) {
+  .imdb {
+    margin-left: 30px;
+  }
 }

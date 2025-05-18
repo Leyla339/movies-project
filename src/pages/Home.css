@@ -160,6 +160,8 @@ header h1 {
   border-radius: 50%;
   font-size: 17px;
   cursor: pointer;
+  width: 20px;
+  height: 20px;
 }
 
 .active-fav,
@@ -175,7 +177,6 @@ header h1 {
   text-decoration: none;
   font: 500 14px Roboto;
 }
-
 
 /* responsive */
 @media (max-width: 1024px) {
@@ -212,9 +213,19 @@ header h1 {
   .func-part button {
     width: 40%;
   }
+  .about-movie h2 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .movie-card img {
+    width: 120px;
+  }
 }
 @media (max-width: 468px) {
   .func-part button {
     width: 50%;
+  }
+  .left-part {
+    padding: 10px;
   }
 }
